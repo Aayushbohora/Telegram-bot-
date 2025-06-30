@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: nepsi-bot
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python nepsi_bot.py
+    autoDeploy: true
