@@ -25,8 +25,8 @@ def run():
 Thread(target=run).start()
 
 # ✅ API keys
-OPENROUTER_API_KEY = "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"
-TELEGRAM_BOT_TOKEN = "7487273405:AAH58yeSiUZGmfkABrWiKA4YM5HXbH-1FSo"
+OPENROUTER_API_KEY = "Your ai api"
+TELEGRAM_BOT_TOKEN = "Your bot token"
 API_URL = "https://openrouter.ai/api/v1/chat/completions"
 MODEL_NAME = "mistralai/mistral-7b-instruct"
 
